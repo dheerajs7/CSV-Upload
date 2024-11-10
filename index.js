@@ -6,7 +6,7 @@ import cors from "cors";
 import studentRouter from "./routes/student.routes.js";
 import flash from 'connect-flash';
 import session from 'express-session';
-import {setFlash} from "./middleware/flashMiddleware.js";
+// import {setFlash} from "./middleware/flashMiddleware.js";
 import methodOverride from 'method-override';
 
 dotenv.config();

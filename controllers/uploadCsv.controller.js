@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 import path from "path";
 
 const uploadCsv = async (req, res) => {
-  if (!req.file) {
+  if(!req.file) {
     // return res.status(400).json({ error: '' });
     req.flash('error', 'Please upload a CSV file')
     return res.redirect('back');

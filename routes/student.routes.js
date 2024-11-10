@@ -1,6 +1,4 @@
 import express from "express"
-import path from "path"
-import bodyParser from "body-parser";
 import upload from "../middleware/multer.middleware.js";
 import {uploadCsv,  displayCsvData, deleteCsv } from "../controllers/uploadCsv.controller.js";
 import { Csv} from "../models/csv.model.js";
